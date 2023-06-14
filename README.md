@@ -25,10 +25,15 @@ The showMATRIX1() and showMATRIX2() functions display the elements of MATRIX1 an
 The code supports the following matrix operations:
 
 Addition: The addition() function adds MATRIX1 and MATRIX2 if they have compatible dimensions.
+
 Subtraction: The subtract() function subtracts MATRIX2 from MATRIX1 if they have compatible dimensions.
+
 Multiplication: The multiplication() function multiplies MATRIX1 and MATRIX2 element-wise if they have compatible dimensions.
+
 Symmetry Check: The symetrical() function checks if MATRIX1 is symmetric or skew symmetric.
+
 Identity Check: The identity() function checks if both MATRIX1 and MATRIX2 are identity matrices.
+
 Equality Check: The equality() function checks if MATRIX1 and MATRIX2 are equal.
 
 **Menu-driven Interface**
@@ -36,15 +41,24 @@ Equality Check: The equality() function checks if MATRIX1 and MATRIX2 are equal.
 The code provides a menu-driven interface to interact with the matrix operations. After setting the matrix dimensions and inserting elements, you can choose various options from the menu:
 
 Show Matrices: Displays the elements of MATRIX1 and MATRIX2.
+
 Addition: Performs matrix addition and displays the result.
+
 Subtraction: Performs matrix subtraction and displays the result.
+
 Multiplication: Performs matrix multiplication and displays the result.
+
 Symmetry Check: Checks the symmetry of MATRIX1.
+
 Identity Check: Checks if both MATRIX1 and MATRIX2 are identity matrices.
+
 Equality Check: Checks if MATRIX1 and MATRIX2 are equal.
+
 Exit Program: Exits the program.
 
 **Note**
 The code supports matrix dimensions up to 10x10.
+
 Invalid inputs, such as entering dimensions or values outside the range [1-9], will prompt the user to try again.
+
 The code assumes that the dimensions of MATRIX1 and MATRIX2 are set before inserting elements or performing operations.
